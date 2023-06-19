@@ -1,17 +1,16 @@
-
 #include <stdio.h>
 /**
 * main - Entry point
-* Description: Print numbers in base 10 using putchar
+* Description: Print alphabet in reverse order using putchar
 * Return: Always 0
 */
 int main(void)
 {
-int n;
+int n = 122;
 
-for (n = 0; n <= 9; n++)
+while (n >= 97, n--)
 {
-putchar(n + '0');
+putchar(n);
 }
 putchar('\n');
 return (0);
