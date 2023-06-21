@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-*Main: Entry point
-*Description: This program demonstrates the usage of the putchar function to print a character
+*Main: Entry point - Demonstrates the usage of the putchar function to print a character
 *Return: always o
 */
 int main(void)
